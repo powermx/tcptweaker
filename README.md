@@ -5,7 +5,7 @@ TCP Tweak.
 <br>
 
 
-## Servicios Instalados: [TCP Tweak](https://https://github.com/powermx/root "root")
+## Servicios Instalados: [TCP Tweak](https://https://github.com/powermx/tweak "Tweak")
 
 ![](https://img.shields.io/badge/Ubuntu-16.04-orange)
 ![](https://img.shields.io/badge/Ubuntu-16.10-orange)
@@ -19,16 +19,16 @@ TCP Tweak.
 ![](https://img.shields.io/badge/Debian-10-red)
 
 #### Instalacion
-Primero Teclee : sudo su
-
-Instalación：`wget https://raw.githubusercontent.com/powermx/tweak/master/tweak && bash tweak`
 
 
-### root
+`wget https://raw.githubusercontent.com/powermx/tweak/master/tweak && bash tweak`
 
-[![](https://github.com/powermx/root/raw/master/root.jpg)](https://github.com/powermx/root/raw/master/root.jpg "root - PowerMX")
 
-> TCPTweak - PowerMX http://pwrmx.com
+### TCP Tweak
+
+[![](https://github.com/powermx/tweak/raw/master/tweak.jpg)](https://github.com/powermx/tweak/raw/master/tweak.jpg "Tweak - PowerMX")
+
+> TCP Tweak - PowerMX http://pwrmx.com
                 
 ----
 
