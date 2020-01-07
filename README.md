@@ -1,11 +1,11 @@
 ![](https://avatars1.githubusercontent.com/u/29370715?s=400&v=4)
 
-TCP Tweak.
+TCP Tweaker.
 
 <br>
 
 
-## Servicios Instalados: [TCP Tweak](https://https://github.com/powermx/tweak "Tweak")
+## Servicios Instalados: [TCP Tweak](https://https://github.com/powermx/tcptweaker "Tweak")
 
 ![](https://img.shields.io/badge/Ubuntu-16.04-orange)
 ![](https://img.shields.io/badge/Ubuntu-16.10-orange)
@@ -21,14 +21,14 @@ TCP Tweak.
 #### Instalacion
 
 
-`wget https://raw.githubusercontent.com/powermx/tweak/master/tweak && bash tweak`
+`wget https://raw.githubusercontent.com/powermx/tcptweaker/master/tcptweaker.sh && chmod +x tcptweaker.sh && ./tcptweaker.sh`
 
 
 ### TCP Tweak
 
-[![](https://github.com/powermx/tweak/raw/master/tweak.jpg)](https://github.com/powermx/tweak/raw/master/tweak.jpg "Tweak - PowerMX")
+[![](https://github.com/powermx/tcptweaker/raw/master/tweak.jpg)](https://github.com/powermx/tcptweaker/raw/master/tweak.jpg "TCP Tweaker - PowerMX")
 
-> TCP Tweak - PowerMX http://pwrmx.com
+> TCP Tweaker - PowerMX http://pwrmx.com
                 
 ----
 
