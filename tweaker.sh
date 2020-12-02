@@ -9,8 +9,8 @@ then
 	if [[ "$resposta0" = 's' ]]; then
 		grep -v "^#PH56
 net.ipv4.tcp_window_scaling = 1
-net.core.rmem_max = 16777216
-net.core.wmem_max = 16777216
+net.core.rmem_max = 26214400
+net.core.wmem_max = 26214400
 net.ipv4.tcp_rmem = 4096 87380 16777216
 net.ipv4.tcp_wmem = 4096 16384 16777216
 net.ipv4.tcp_low_latency = 1
@@ -35,18 +35,21 @@ else
 	echo ""
 	echo "Modificando las Siguiente configuraciones:"
 	echo " " >> /etc/sysctl.conf
-	echo "#PH56" >> /etc/sysctl.conf
+	echo "#VpsPack" >> /etc/sysctl.conf
 echo "net.ipv4.tcp_window_scaling = 1
-net.core.rmem_max = 16777216
-net.core.wmem_max = 16777216
+net.core.rmem_max = 26214400
+net.core.wmem_max = 26214400
 net.ipv4.tcp_rmem = 4096 87380 16777216
 net.ipv4.tcp_wmem = 4096 16384 16777216
 net.ipv4.tcp_low_latency = 1
 net.ipv4.tcp_slow_start_after_idle = 0" >> /etc/sysctl.conf
 echo ""
 sysctl -p /etc/sysctl.conf
+sysctl -w net.core.rmem_max=26214400
+sysctl -w net.core.rmem_default=26214400
 		echo ""
 		echo "Las configuraciones de red con TCP Tweaker fueron agregas correctamente."
+		echo "Para hacer que las configuraciones sean permanentes, reinica el vps."
 		echo ""
 	else
 		echo ""
